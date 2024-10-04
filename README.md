@@ -29,15 +29,15 @@ This is a PHP-based eCommerce website for selling computers and related products
 ## Installation
 
 1. Clone the repository:
-   bash
+   ```bash
    git clone https://github.com/DhruvGajera9022/php-college-project-admin
 
 2. Navigate to the project directory:
-   bash
+   ```bash
    cd php-college-project-admin
 
 3. Configure the database connection in config.php:
-   bash
+   ```bash
    <?php
       $servername = "localhost";
       $username = "your-username";
@@ -45,7 +45,7 @@ This is a PHP-based eCommerce website for selling computers and related products
       $dbname = "ecommerce_db";
    ?>
 4. Start the server using Apache or any PHP server:
-   bash
+   ```bash
        php -S localhost:8000
 
 5. Access the website by visiting http://localhost:8000 in your browser.
